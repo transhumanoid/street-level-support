@@ -4,7 +4,7 @@ A short public guide to a way of working with people in distress that starts on 
 
 This is Michael's distilled ethos, written for anyone who wants to use it. It is not a clinical manual, not legal advice, and not a substitute for care. Take what is useful. Leave the rest.
 
-Site: this repository's GitHub Pages. Source: [github.com/transhumanoid/street-level-support](https://github.com/transhumanoid/street-level-support).
+Site: [transhumanoid.github.io/street-level-support](https://transhumanoid.github.io/street-level-support/). Source: [github.com/transhumanoid/street-level-support](https://github.com/transhumanoid/street-level-support).
 
 ## The core idea
 
@@ -64,6 +64,13 @@ If the official story and the person in front of you disagree, check the person 
 ## Other public threads
 
 This ethos also lives in public, non-clinical work: converting a 1945 timber Navy vessel into a liveaboard yacht; dichroic glasswork, which shifts colour with the light; and an autobiography concept, "My Life as a Comedy Skit." Those projects are part of the same idea: a life is larger than a service plan.
+
+## Essays
+
+Longer public drafts that expand one thread at a time:
+
+- [Start With Tonight, Not the File](posts/01-support-work-philosophy.md) — support-work philosophy
+- [The Cheapest Help Is the Help You Cut](posts/02-system-critique.md) — the false economy of mental health systems
 
 ## License
 
