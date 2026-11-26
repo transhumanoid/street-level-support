@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Street-Level Support</title>
+  <meta name="description" content="A plain-language public guide to meeting people where they are, housing without preconditions, and checking the opposite of the official story.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,640;1,9..144,500&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #07141b;
+      --bg-2: #0d2430;
+      --panel: rgba(13, 36, 48, 0.72);
+      --ink: #f3efe6;
+      --muted: #b7c4c2;
+      --timber: #d7b07a;
+      --link: #8ee3d8;
+      --link-hover: #f0d59a;
+      --line: rgba(243, 239, 230, 0.12);
+      --max: 42rem;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.65;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(110, 231, 224, 0.12), transparent 55%),
+        radial-gradient(900px 500px at 110% 10%, rgba(224, 122, 214, 0.1), transparent 50%),
+        linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 40%, #0a1c24 100%);
+      min-height: 100%;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0 0 auto 0;
+      height: 6px;
+      z-index: 5;
+      background: linear-gradient(90deg, #6ee7e0, #e8c48a, #e07ad6, #6ee7e0);
+      background-size: 200% 100%;
+    }
+    a { color: var(--link); text-underline-offset: 0.18em; }
+    a:hover { color: var(--link-hover); }
+    a:focus-visible {
+      outline: 2px solid var(--timber);
+      outline-offset: 3px;
+    }
+    .skip {
+      position: absolute;
+      left: 1rem;
+      top: -3rem;
+      background: var(--ink);
+      color: var(--bg);
+      padding: 0.4rem 0.7rem;
+      border-radius: 4px;
+    }
+    .skip:focus { top: 1rem; }
+    header, main, footer { width: min(var(--max), calc(100% - 2rem)); margin-inline: auto; }
+    header { padding: 5.5rem 0 2.5rem; }
+    .kicker {
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      color: var(--timber);
+      margin: 0 0 1rem;
+    }
+    h1, h2, h3 { font-family: Fraunces, Georgia, serif; font-weight: 640; letter-spacing: -0.02em; line-height: 1.15; }
+    h1 { font-size: clamp(2.6rem, 8vw, 4.4rem); margin: 0 0 1rem; }
+    h2 { font-size: 1.7rem; margin: 2.8rem 0 0.9rem; }
+    h3 { font-size: 1.2rem; margin: 1.6rem 0 0.4rem; }
+    .lede { font-family: Fraunces, Georgia, serif; font-size: 1.35rem; font-weight: 500; line-height: 1.45; max-width: 34rem; color: var(--muted); }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem 1.2rem;
+      margin-top: 2rem;
+      font-size: 0.95rem;
+    }
+    nav a { text-decoration: none; border-bottom: 1px solid rgba(142, 227, 216, 0.35); padding-bottom: 0.05rem; }
+    .pull {
+      margin: 2.2rem 0;
+      padding: 1.2rem 1.3rem 1.2rem 1.4rem;
+      border-left: 3px solid transparent;
+      border-image: linear-gradient(180deg, #6ee7e0, #e8c48a, #e07ad6) 1;
+      background: var(--panel);
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.28rem;
+      font-style: italic;
+      line-height: 1.4;
+    }
+    ol.principles, ul { padding-left: 1.2rem; }
+    ol.principles { counter-reset: p; list-style: none; padding-left: 0; }
+    ol.principles li {
+      position: relative;
+      padding: 1.1rem 0 1.15rem 3.1rem;
+      border-top: 1px solid var(--line);
+    }
+    ol.principles li::before {
+      counter-increment: p;
+      content: counter(p, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 1.15rem;
+      color: var(--timber);
+      font-family: Fraunces, Georgia, serif;
+      font-size: 0.95rem;
+    }
+    ol.principles strong { color: #fff; font-weight: 600; }
+    .sources a, .actions a { display: inline; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin: 2rem 0 3rem;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.7rem 1rem;
+      border-radius: 999px;
+      border: 1px solid rgba(142, 227, 216, 0.4);
+      color: var(--ink);
+      background: rgba(142, 227, 216, 0.08);
+    }
+    .btn.primary {
+      background: #e8c48a;
+      color: #142027;
+      border-color: #e8c48a;
+      font-weight: 600;
+    }
+    .btn:hover { color: var(--bg); background: var(--link-hover); border-color: var(--link-hover); }
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 2rem 0 4rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header>
+    <p class="kicker">A public ethos</p>
+    <h1>Street-level support</h1>
+    <p class="lede">Meet people where they are. Help with what they say they need. If the official story and the person in front of you disagree, check the person first.</p>
+    <nav aria-label="On this page">
+      <a href="#principles">Principles</a>
+      <a href="#apply">How to apply them</a>
+      <a href="#avoid">What to avoid</a>
+      <a href="#evidence">Public evidence</a>
+      <a href="#threads">Other threads</a>
+    </nav>
+  </header>
+  <main id="main">
+    <p>This page is a plain-language guide to a way of working with people in distress that starts on the street, not in a waiting room. It is Michael's distilled public ethos — not a clinical manual, not legal advice, and not a substitute for care.</p>
+    <p class="pull">A home is not a prize for getting well. A key is not a gold star. It is the ground that everything else stands on.</p>
+
+    <h2 id="principles">Principles</h2>
+    <ol class="principles">
+      <li><strong>Start with the street, not the system.</strong> Ask whether this person is safe tonight, has a key, has eaten, is being hunted, or wants company. Paperwork comes later.</li>
+      <li><strong>Use the inverse rule.</strong> When a mainstream story sounds tidy — "they refuse help," "they need to be ready," "treatment first, housing later" — turn it around and test the opposite before you accept the official version.</li>
+      <li><strong>Do not make housing a reward for recovery.</strong> Housing First gives people a stable place to live without making sobriety or treatment a condition of the keys, then offers support. Large public trials, including Canada's At Home/Chez Soi project, found that people housed this way spend much more of their time in stable housing than people left in usual services.</li>
+      <li><strong>Make change possible, not lectured.</strong> Contingency management is a plain idea with a strong research base, especially around cocaine and methamphetamine use: a reachable goal, a fair check, and a real reward that arrives soon after.</li>
+      <li><strong>Count the whole bill.</strong> Cutting cheap, early, human support often shows up later as hospital beds, police calls, evictions, and jail. That is the false economy of many mental health systems.</li>
+      <li><strong>Treat lived experience as evidence, not decoration.</strong> Hire people who have been through the system, listen to them, and let them shape the work.</li>
+      <li><strong>Remember that rooms are not the only place people get well.</strong> Time on the water, time outdoors, and skilled hand work can settle a nervous system when forms cannot. Call it ecotherapy or blue water therapy if a name helps.</li>
+      <li><strong>If you build tools, including AI, design them as support, not as a judge.</strong> Help a person think, remember, plan, or reach a human being. Do not diagnose in secret, shame, or replace the relationship.</li>
+      <li><strong>Keep a sense of humour, and keep the story honest.</strong> Life is often closer to a comedy skit than a case file. Laugh with people, never at them, and do not tidy the plot.</li>
+    </ol>
+
+    <h2 id="apply">How to apply this</h2>
+    <ul>
+      <li>Ask "what would make tonight safer?" before you ask "what is your diagnosis?"</li>
+      <li>Offer a key, a meal, a lift, a quiet hour, or a real choice before you offer a program.</li>
+      <li>If someone says no, treat that as information about the offer, not as proof they do not want help.</li>
+      <li>When a meeting is about a person who is not in the room, stop and change that if you can.</li>
+      <li>Follow public evidence where it is strong, instead of habit.</li>
+      <li>Build support around ordinary life: a boat, a bench, a studio, a kitchen, a walk.</li>
+      <li>If you write software or prompts for mental health support, make the limits obvious, keep humans in the loop, and never harvest private distress without clear, informed consent.</li>
+    </ul>
+
+    <h2 id="avoid">What to avoid</h2>
+    <ul>
+      <li>Making housing, benefits, or basic care depend on compliance, insight, or sobriety first.</li>
+      <li>Treating "they declined the service" as the end of the story.</li>
+      <li>Inventing numbers, or quoting "evidence" you have not actually read.</li>
+      <li>Using a person's crisis, family, or legal situation as content.</li>
+      <li>Building AI that pretends to be a therapist, a friend, or an authority it is not.</li>
+      <li>Speaking for people when they can speak for themselves.</li>
+      <li>Saving money in a clinic budget by pushing costs onto streets, hospitals, and cells.</li>
+    </ul>
+
+    <h2 id="evidence">Public evidence</h2>
+    <p>Do not take these ideas on trust. The housing and incentive claims above come from public research you can read yourself:</p>
+    <ul class="sources">
+      <li><a href="https://mentalhealthcommission.ca/what-we-do/at-home/">At Home/Chez Soi, Mental Health Commission of Canada</a></li>
+      <li><a href="https://mentalhealthcommission.ca/resource/national-at-home-chez-soi-final-report/">National At Home/Chez Soi final report</a></li>
+      <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4679127/">Research review of Housing First and the Canadian trial</a> (people in Housing First spent about 73% of their time in stable housing, compared with about 32% in usual services)</li>
+      <li><a href="https://www.pathwayshousingfirst.org/">Pathways Housing First Institute</a></li>
+      <li><a href="https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery">NIDA: treatment and recovery, including contingency management</a></li>
+      <li><a href="https://nida.nih.gov/research-topics/cocaine">NIDA: cocaine, including contingency management</a></li>
+    </ul>
+
+    <h2 id="threads">Other public threads</h2>
+    <p>This ethos also lives in public, non-clinical work: converting a 1945 timber Navy vessel into a liveaboard yacht; dichroic glasswork, which shifts colour with the light; and an autobiography concept, "My Life as a Comedy Skit." Those projects are part of the same idea: a life is larger than a service plan.</p>
+    <p>The first longer essay in this series is on support-work philosophy.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/transhumanoid/street-level-support">Open the GitHub repo</a>
+      <a class="btn" href="https://github.com/transhumanoid/street-level-support/blob/main/posts/01-support-work-philosophy.md">Read the first essay</a>
+      <a class="btn" href="https://github.com/transhumanoid/street-level-support/blob/main/README.md">Read the full README</a>
+    </div>
+  </main>
+  <footer>
+    <p>Written for public use, with credit, and without surnames or private detail. Not clinical, legal, or personal advice.</p>
+  </footer>
+</body>
+</html>
