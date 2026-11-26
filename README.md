@@ -71,6 +71,9 @@ Longer public drafts that expand one thread at a time:
 
 - [Start With Tonight, Not the File](posts/01-support-work-philosophy.md) — support-work philosophy
 - [The Cheapest Help Is the Help You Cut](posts/02-system-critique.md) — the false economy of mental health systems
+- [Keys Before Conditions](posts/03-housing-economics.md) — the economics of Housing First
+
+Next up: AI ethics.
 
 ## License
 
