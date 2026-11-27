@@ -83,8 +83,9 @@ Longer public drafts that expand one thread at a time:
 - [Counting the Wrong Things](posts/12-system-critique-counting-the-wrong-things.md) — system critique: how what services measure shapes who they help
 - [Waiting Is Not Free](posts/13-housing-economics-waiting-is-not-free.md) — housing economics: the hidden cost of waiting lists and temporary accommodation
 - [Safe to Forget](posts/14-ai-ethics-safe-to-forget.md) — AI ethics: privacy, memory, and trust in AI support tools
+- [Fixable by Hand](posts/15-boat-living-fixable-by-hand.md) — Boat living: simple, repairable electric power for an old timber boat, and what it teaches about support
 
-Next up: boat living.
+Next up: support work philosophy.
 
 ## License
 
