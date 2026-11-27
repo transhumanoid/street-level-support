@@ -82,8 +82,9 @@ Longer public drafts that expand one thread at a time:
 - [Turn Up Again Tomorrow](posts/11-support-work-philosophy-turn-up-again.md) — support-work philosophy: reliability, meeting people where they are, and keeping the door open
 - [Counting the Wrong Things](posts/12-system-critique-counting-the-wrong-things.md) — system critique: how what services measure shapes who they help
 - [Waiting Is Not Free](posts/13-housing-economics-waiting-is-not-free.md) — housing economics: the hidden cost of waiting lists and temporary accommodation
+- [Safe to Forget](posts/14-ai-ethics-safe-to-forget.md) — AI ethics: privacy, memory, and trust in AI support tools
 
-Next up: AI ethics.
+Next up: boat living.
 
 ## License
 
