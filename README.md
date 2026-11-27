@@ -73,8 +73,9 @@ Longer public drafts that expand one thread at a time:
 - [The Cheapest Help Is the Help You Cut](posts/02-system-critique.md) — the false economy of mental health systems
 - [Keys Before Conditions](posts/03-housing-economics.md) — the economics of Housing First
 - [A Tool, Not a Judge](posts/04-ai-ethics.md) — the design and ethics of AI for mental health support
+- [A Boat Is a Slow Teacher](posts/05-boat-living.md) — boat living, repair, and blue water
 
-Next up: boat living.
+Next up: support work philosophy (a new thread, starting the rotation again).
 
 ## License
 
