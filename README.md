@@ -79,8 +79,9 @@ Longer public drafts that expand one thread at a time:
 - [Keeping a Home Is Cheaper Than Finding One](posts/08-housing-economics-keeping-a-home.md) — housing economics: preventing evictions and sustaining tenancies
 - [Built With, Not For](posts/09-ai-ethics-built-with-not-for.md) — AI ethics: co-designing mental health tools with lived experience
 - [The Water Does Some of the Work](posts/10-boat-living-blue-water.md) — boat living: blue water therapy and time on the water as part of recovery
+- [Turn Up Again Tomorrow](posts/11-support-work-philosophy-turn-up-again.md) — support-work philosophy: reliability, meeting people where they are, and keeping the door open
 
-Next up: support work philosophy.
+Next up: system critique.
 
 ## License
 
