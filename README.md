@@ -80,8 +80,9 @@ Longer public drafts that expand one thread at a time:
 - [Built With, Not For](posts/09-ai-ethics-built-with-not-for.md) — AI ethics: co-designing mental health tools with lived experience
 - [The Water Does Some of the Work](posts/10-boat-living-blue-water.md) — boat living: blue water therapy and time on the water as part of recovery
 - [Turn Up Again Tomorrow](posts/11-support-work-philosophy-turn-up-again.md) — support-work philosophy: reliability, meeting people where they are, and keeping the door open
+- [Counting the Wrong Things](posts/12-system-critique-counting-the-wrong-things.md) — system critique: how what services measure shapes who they help
 
-Next up: system critique.
+Next up: housing economics.
 
 ## License
 
