@@ -77,8 +77,9 @@ Longer public drafts that expand one thread at a time:
 - [Been There Counts](posts/06-support-work-philosophy-lived-experience.md) — support-work philosophy: lived experience at the centre
 - [Not Sick Enough, Until Too Sick](posts/07-system-critique-not-sick-enough.md) — system critique: the gap between "not unwell enough" and crisis
 - [Keeping a Home Is Cheaper Than Finding One](posts/08-housing-economics-keeping-a-home.md) — housing economics: preventing evictions and sustaining tenancies
+- [Built With, Not For](posts/09-ai-ethics-built-with-not-for.md) — AI ethics: co-designing mental health tools with lived experience
 
-Next up: AI ethics.
+Next up: boat living.
 
 ## License
 
