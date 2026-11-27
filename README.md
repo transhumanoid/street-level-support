@@ -74,8 +74,9 @@ Longer public drafts that expand one thread at a time:
 - [Keys Before Conditions](posts/03-housing-economics.md) — the economics of Housing First
 - [A Tool, Not a Judge](posts/04-ai-ethics.md) — the design and ethics of AI for mental health support
 - [A Boat Is a Slow Teacher](posts/05-boat-living.md) — boat living, repair, and blue water
+- [Been There Counts](posts/06-support-work-philosophy-lived-experience.md) — support-work philosophy: lived experience at the centre
 
-Next up: support work philosophy (a new thread, starting the rotation again).
+Next up: system critique.
 
 ## License
 
