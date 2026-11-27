@@ -78,8 +78,9 @@ Longer public drafts that expand one thread at a time:
 - [Not Sick Enough, Until Too Sick](posts/07-system-critique-not-sick-enough.md) — system critique: the gap between "not unwell enough" and crisis
 - [Keeping a Home Is Cheaper Than Finding One](posts/08-housing-economics-keeping-a-home.md) — housing economics: preventing evictions and sustaining tenancies
 - [Built With, Not For](posts/09-ai-ethics-built-with-not-for.md) — AI ethics: co-designing mental health tools with lived experience
+- [The Water Does Some of the Work](posts/10-boat-living-blue-water.md) — boat living: blue water therapy and time on the water as part of recovery
 
-Next up: boat living.
+Next up: support work philosophy.
 
 ## License
 
