@@ -76,8 +76,9 @@ Longer public drafts that expand one thread at a time:
 - [A Boat Is a Slow Teacher](posts/05-boat-living.md) — boat living, repair, and blue water
 - [Been There Counts](posts/06-support-work-philosophy-lived-experience.md) — support-work philosophy: lived experience at the centre
 - [Not Sick Enough, Until Too Sick](posts/07-system-critique-not-sick-enough.md) — system critique: the gap between "not unwell enough" and crisis
+- [Keeping a Home Is Cheaper Than Finding One](posts/08-housing-economics-keeping-a-home.md) — housing economics: preventing evictions and sustaining tenancies
 
-Next up: housing economics.
+Next up: AI ethics.
 
 ## License
 
