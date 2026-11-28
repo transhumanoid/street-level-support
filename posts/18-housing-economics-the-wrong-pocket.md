@@ -27,7 +27,7 @@ Economists sometimes call this the "wrong pocket problem". It is not a secret. I
 
 ## What the evidence says, in general terms
 
-This essay will not put numbers on it, because the real figures differ from place to place and made-up figures help nobody. But studies of Housing First in several countries, including the large Canadian At Home/Chez Soi trial, have found that housing people with support reduces their use of costly emergency services, and that a good share of the program's cost is offset elsewhere. Canada's Mental Health Commission has published the findings: [At Home/Chez Soi final report](https://mentalhealthcommission.ca/resource/national-final-report-cross-site-at-home-chez-soi-project/).
+This essay will not put numbers on it, because the real figures differ from place to place and made-up figures help nobody. But studies of Housing First in several countries, including the large Canadian At Home/Chez Soi trial, have found that housing people with support reduces their use of costly emergency services, and that a good share of the program's cost is offset elsewhere. Canada's Mental Health Commission has published the findings: [At Home/Chez Soi final report](https://mentalhealthcommission.ca/resource/national-at-home-chez-soi-final-report/).
 
 The offset is real. It just doesn't come back to the budget that paid.
 
