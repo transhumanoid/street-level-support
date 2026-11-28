@@ -84,8 +84,9 @@ Longer public drafts that expand one thread at a time:
 - [Waiting Is Not Free](posts/13-housing-economics-waiting-is-not-free.md) — housing economics: the hidden cost of waiting lists and temporary accommodation
 - [Safe to Forget](posts/14-ai-ethics-safe-to-forget.md) — AI ethics: privacy, memory, and trust in AI support tools
 - [Fixable by Hand](posts/15-boat-living-fixable-by-hand.md) — Boat living: simple, repairable electric power for an old timber boat, and what it teaches about support
+- [Ask What Would Help](posts/16-support-work-philosophy-ask-what-would-help.md) — Support work philosophy: asking people what would help, and acting on the answer
 
-Next up: support work philosophy.
+Next up: system critique.
 
 ## License
 
