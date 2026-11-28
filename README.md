@@ -92,8 +92,9 @@ Longer public drafts that expand one thread at a time:
 - [Small Wins Count](posts/21-support-work-philosophy-small-wins-count.md) — Support work philosophy: why noticing and rewarding small steps does more than waiting for big change
 - [The Pilot That Never Grows Up](posts/22-system-critique-the-pilot-that-never-grows-up.md) — System critique: why programs that work are often run as short trials and then dropped, and what steady funding changes
 - [A Bed Is Not a Home](posts/23-housing-economics-a-bed-is-not-a-home.md) — Housing economics: why nights in emergency beds and motels cost a lot and fix little, and what a real home with a lease changes
+- [Kind, Not Agreeable](posts/24-ai-ethics-kind-not-agreeable.md) — AI ethics: why a good AI support tool should be warm and honest, not just tell people what they want to hear
 
-Next up: AI ethics.
+Next up: boat living.
 
 ## License
 
