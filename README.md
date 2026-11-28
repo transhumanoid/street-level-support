@@ -91,8 +91,9 @@ Longer public drafts that expand one thread at a time:
 - [You Can't Argue With the Weather](posts/20-boat-living-cant-argue-with-the-weather.md) — Boat living: what working around the weather teaches about plans that bend, and support that doesn't drop people on a bad week
 - [Small Wins Count](posts/21-support-work-philosophy-small-wins-count.md) — Support work philosophy: why noticing and rewarding small steps does more than waiting for big change
 - [The Pilot That Never Grows Up](posts/22-system-critique-the-pilot-that-never-grows-up.md) — System critique: why programs that work are often run as short trials and then dropped, and what steady funding changes
+- [A Bed Is Not a Home](posts/23-housing-economics-a-bed-is-not-a-home.md) — Housing economics: why nights in emergency beds and motels cost a lot and fix little, and what a real home with a lease changes
 
-Next up: housing economics.
+Next up: AI ethics.
 
 ## License
 
