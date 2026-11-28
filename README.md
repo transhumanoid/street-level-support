@@ -90,8 +90,9 @@ Longer public drafts that expand one thread at a time:
 - [Know When to Hand Over](posts/19-ai-ethics-know-when-to-hand-over.md) — AI ethics: why an AI support tool's most important skill is knowing when to get a human involved
 - [You Can't Argue With the Weather](posts/20-boat-living-cant-argue-with-the-weather.md) — Boat living: what working around the weather teaches about plans that bend, and support that doesn't drop people on a bad week
 - [Small Wins Count](posts/21-support-work-philosophy-small-wins-count.md) — Support work philosophy: why noticing and rewarding small steps does more than waiting for big change
+- [The Pilot That Never Grows Up](posts/22-system-critique-the-pilot-that-never-grows-up.md) — System critique: why programs that work are often run as short trials and then dropped, and what steady funding changes
 
-Next up: system critique.
+Next up: housing economics.
 
 ## License
 
