@@ -87,8 +87,9 @@ Longer public drafts that expand one thread at a time:
 - [Ask What Would Help](posts/16-support-work-philosophy-ask-what-would-help.md) — Support work philosophy: asking people what would help, and acting on the answer
 - [Telling Your Story Again](posts/17-system-critique-telling-your-story-again.md) — System critique: being passed between services, and the case for no wrong door
 - [The Wrong Pocket](posts/18-housing-economics-the-wrong-pocket.md) — Housing economics: why programs that save money overall get cut when costs and savings sit in different budgets
+- [Know When to Hand Over](posts/19-ai-ethics-know-when-to-hand-over.md) — AI ethics: why an AI support tool's most important skill is knowing when to get a human involved
 
-Next up: AI ethics.
+Next up: boat living.
 
 ## License
 
