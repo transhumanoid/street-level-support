@@ -85,8 +85,9 @@ Longer public drafts that expand one thread at a time:
 - [Safe to Forget](posts/14-ai-ethics-safe-to-forget.md) — AI ethics: privacy, memory, and trust in AI support tools
 - [Fixable by Hand](posts/15-boat-living-fixable-by-hand.md) — Boat living: simple, repairable electric power for an old timber boat, and what it teaches about support
 - [Ask What Would Help](posts/16-support-work-philosophy-ask-what-would-help.md) — Support work philosophy: asking people what would help, and acting on the answer
+- [Telling Your Story Again](posts/17-system-critique-telling-your-story-again.md) — System critique: being passed between services, and the case for no wrong door
 
-Next up: system critique.
+Next up: housing economics.
 
 ## License
 
